@@ -1,0 +1,33 @@
+# Build output
+build/
+.gradle/
+*/build/
+**/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.cxx/
+captures/
+.externalNativeBuild/
+
+# Local machine files (jangan pernah di-commit)
+local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# Rahasia dan kredensial (API key, token, .env)
+.env
+.env.*
+secrets.properties
+*.secret
+*.pem
+*.p12
+google-services.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.log
